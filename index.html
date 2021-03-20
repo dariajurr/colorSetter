@@ -1,0 +1,44 @@
+<!-- Revised from demo code on http://jqueryui.com/ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Slider</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  
+  <link rel="stylesheet" href="style.css">  
+ <script src="main.js" defer></script>
+</head>
+
+<body style="border:0;">  
+  <div class="color-setter">
+    <form>
+      <fieldset>
+        <legend>Select:</legend>
+        <label class="checkbox-btn" >
+          <input name="typeSelect" type="radio" value="color" >
+          <span class="">color</span>
+        </label>
+        <label class="checkbox-btn">
+          <input name="typeSelect" type="radio" value="background-color" checked>
+          <span>backgroundColor</span>
+        </label>
+      </fieldset>
+    </form> 
+    <div class="color-slider">
+      <div class="color-slider_sliders">
+        <div id="red" class="red slider"></div>
+        <div id="green" class="green slider"></div>
+        <div id="blue" class="blue slider"></div>
+    </div>
+    <div id="colorField" class="color-slider_color-field ui-widget-content ui-corner-all">     
+      <p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.</p>    
+    </div>
+    </div>
+  </div> 
+</body>
+
+</html>

@@ -47,38 +47,8 @@
    border-color: #729fcf;
 }
 
-.checkbox-btn {
-  display: inline-block;
-  margin: 0 5px 0 0;
-  user-select: none;
-  position: relative;
-}
-
-.checkbox-btn input[type=radio] {   
-  display: none;   
-}
-
-.checkbox-btn span {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0px 10px;
-  line-height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #474747;   
-  border: 1px solid #999;
-  border-radius: 4px;
-  background:#f6f6f6;
-  transition: background 0.2s ease;
-}
-
-
-.checkbox-btn input[type=radio]:checked+span {
-  background: #4072fe;
-  color: #fff;
-}
- 
-.checkbox-btn span:hover {
-  border: 1px solid #4072fe;
+.ui-controlgroup>.ui-controlgroup-item {
+  margin-right: 5px;
 }
 
 @media (max-width: 578px) {

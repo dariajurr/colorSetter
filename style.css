@@ -81,3 +81,8 @@
   border: 1px solid #4072fe;
 }
 
+@media (max-width: 578px) {
+  .color-slider {
+    padding-top: 20px;
+  }
+}
